@@ -1,0 +1,62 @@
+body {
+	background-color: white;
+	color: black;
+}
+
+a:link { font-weight: bold; color: #E845E3; text-decoration: none; }
+a:visited { font-weight: bold; color: #E845E3; text-decoration: none; }
+a:hover { font-weight: bold; color: #E845E3; text-decoration: underline; }
+a:active { font-weight: bold; color: #E845E3; text-decoration: none; }
+
+h1, p { font-family: 'Raleway', sans-serif; }
+
+h1 {
+	font-size: 11em;
+}
+
+#container {
+	padding: 6em;
+}
+
+#one {
+	font-size: 3em;
+	padding-top: 3em;
+}
+
+#two {
+	font-size: 2em;
+	padding-top: 4em;
+}
+
+#three {
+	color: #CCCCCC;
+	font-size: 2em;
+	padding-top: 4em;
+}
+
+img
+{
+	vertical-align: text-bottom;
+}
+
+#heartbeat
+{
+	position: absolute;
+	top: 6em;
+	left: 11.98em;
+	z-index: 15;
+}
+
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+{
+	#container {
+		padding: 2em;
+	}
+	#heartbeat
+	{
+		top: 2em;
+		left: 8em;
+	}
+}
