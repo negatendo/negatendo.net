@@ -1,65 +1,42 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
 <head>
-	<title>negatendo</title>
-
-	<link rel="stylesheet" type="text/css" href="reset.css" />
-	<link rel="stylesheet" type="text/css" href="negatendo.css" />
-
-  <head profile="http://www.w3.org/2005/10/profile">
-  <link rel="icon" 
-    type="image/png" 
-    href="http://negatendo.net/favicon.ico">
-
-	<link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+<title>negatendo</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="negatendo.css" />
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/png" href="http://negatendo.net/favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-
 <div id="container">
-
 <img src="heart.png" id="heartbeat" width="200" height="210" style="display: none" />
-
 <h1>I <img src="heart.png" id="heart" width="200" height="210" alt="%3C%33" /> teh Internets.</h1>
-
-
-<p id="one">Look for me as <a href="https://www.google.com/search?q=negatendo" title="Google search for negatendo">negatendo</a> anywhere <a href="http://en.wikipedia.org/wiki/Homo_Ludens_(book)">we can play</a>.</p>
-
+<p id="one">Look for me as <a href="https://www.google.com/search?q=negatendo" title="Google search for negatendo">negatendo</a> anywhere <a href="http://en.wikipedia.org/wiki/Homo_Ludens_(book)" title="Homo Ludens">we can play</a>.</p>
 <p id="two">Also see <a href="http://www.blimpsgo90.com">Blimps go 90</a> where I'm all professional and shit.*</p>
-
 <p id="three">(*Not very professional.)</p>
-
 <script src="jquery-1.8.3.js"></script>
 <script src="jquery-ui-1.9.2.custom.js"></script>
-
 <script type="text/javascript">
-	$(document).ready(function() {
-		window.setInterval(pulse,800);
-		function pulse()
-		{
-			$("#heartbeat").show();
-			$("#heartbeat").hide("puff",{percent: 130, direction: 'both'},400);
-		}
-	})
+$(document).ready(function() {
+  window.setInterval(pulse,800);
+  function pulse()
+  {
+    $("#heartbeat").show();
+    $("#heartbeat").hide("puff",{percent: 130, direction: 'both'},400);
+  }
+})
 </script>
-
 <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5351774-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-5351774-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 </script>
-
 </div>
-
 </body>
-
 </html>
