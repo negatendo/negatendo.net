@@ -34,13 +34,23 @@ h1 {
 	padding-top: 4em;
 }
 
-img
-{
+#misc {
+	color: black;
+	font-size: 1em;
+	padding-top: 5em;
+}
+
+ul {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1em;
+}
+
+
+img {
 	vertical-align: text-bottom;
 }
 
-#heartbeat
-{
+#heartbeat {
 	position: absolute;
 	top: 6em;
 	left: 11.98em;
